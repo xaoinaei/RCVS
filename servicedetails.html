@@ -42,49 +42,13 @@
   </head>
 
   <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
-      <div class="container">
-        <div
-          class="
-            header-container
-            d-flex
-            align-items-center
-            justify-content-between
-          "
-        >
-          <a href="index.html"
-            ><img src="assets/img/LOGO2.png" alt="" width="55%"
-          /></a>
+    <div class="header-social-links d-flex">
+      <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+      <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bu bi-instagram"></i></a>
+      <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+    </div>
 
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li>
-                <a class="nav-link scrollto" href="index.html">Home</a>
-              </li>
-              <li><a class="nav-link scrollto" href="about.html">About</a></li>
-              <li>
-                <a class="nav-link scrollto" href="services.html">Choose Us</a>
-              </li>
-              <li>
-                <a class="nav-link scrollto" href="portfolio.html">Services</a>
-              </li>
-              <li>
-                <a class="nav-link scrollto" href="team.html">Why RCVS</a>
-              </li>
-
-              <li>
-                <a class="nav-link scrollto active" href="contact.html"
-                  >Contact Us</a
-                >
-              </li>
-              <li>
-                <a class="getstarted scrollto" href="about.html">Get Started</a>
-              </li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav>
-          <!-- .navbar -->
         </div>
         <!-- End Header Container -->
       </div>
@@ -203,123 +167,74 @@
       <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
-            <h2>Contact</h2>
+            <h2>Portfolio Details</h2>
             <ol>
               <li><a href="index.html">Home</a></li>
-              <li>Contact</li>
+              <li>Portfolio Details</li>
             </ol>
           </div>
         </div>
       </section>
       <!-- End Breadcrumbs -->
 
-      <!-- ======= Contact Section ======= -->
-      <div class="map-section">
-        <iframe
-          style="border: 0; width: 100%; height: 350px"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.7765382655484!2d77.14784251464071!3d28.726223486586054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d019e73456b59%3A0x529341779d90dc75!2shouse%20no-%20531%2C%20528A%2F4%2C%20Ambedkar%20Nagar%2C%20Shalimar%20Bagh%2C%20Delhi%2C%20110088!5e0!3m2!1sen!2sin!4v1631533415833!5m2!1sen!2sin"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
-      </div>
-
-      <section id="contact" class="contact">
+      <!-- ======= Portfolio Details Section ======= -->
+      <section id="portfolio-details" class="portfolio-details">
         <div class="container">
-          <div class="row justify-content-center" data-aos="fade-up">
-            <div class="col-lg-10">
-              <div class="info-wrap">
-                <div class="row">
-                  <div class="col-lg-4 info">
-                    <i class="bi bi-geo-alt"></i>
-                    <h4>Location:</h4>
-                    <p>
-                      House no- 531, street no.4,<br />
-                      Ambedkar Nagar,<br />
-                      Haiderpur- 110088 India.
-                    </p>
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper-container">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/security-265130_640.jpg"
+                      alt=""
+                    />
                   </div>
 
-                  <div class="col-lg-4 info mt-4 mt-lg-0">
-                    <i class="bi bi-envelope"></i>
-                    <h4>Email:</h4>
-                    <p>info@realcheckservices.in</p>
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/network-3664108_640.jpg"
+                      alt=""
+                    />
                   </div>
 
-                  <div class="col-lg-4 info mt-4 mt-lg-0">
-                    <i class="bi bi-phone"></i>
-                    <h4>Call:</h4>
-                    <p>9717127090,<br />9911202915</p>
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/fingerprint-979598_640.jpg"
+                      alt=""
+                    />
                   </div>
                 </div>
+                <div class="swiper-pagination"></div>
               </div>
             </div>
-          </div>
 
-          <div class="row mt-5 justify-content-center" data-aos="fade-up">
-            <div class="col-lg-10">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Service Information</h3>
+                <ul>
+                  <li><strong>Category</strong>: Employee Screening</li>
+                  <li><strong>Client</strong>: RCVS Company</li>
+                  <li><strong>Project date</strong>: 01 March, 20XX</li>
+                  <li>
+                    <strong>Service URL</strong>:
+                    <a href="#">www.example.com</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>This is an example of portfolio detail</h2>
+                <p>
+                  VISUAL LAB | VERIFACTS VIDEOS<br>
+                  Understand how to integrate our services into your Human Resource department on our Youtube Channel.
+
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Contact Section -->
+      <!-- End Portfolio Details Section -->
     </main>
     <!-- End #main -->
 
@@ -403,13 +318,12 @@
 
       <div class="container d-md-flex py-4">
         <div class="me-md-auto text-center text-md-start">
-          <div class="copyright">
+          <div class="copyright" style="text-align: center">
             &copy; Copyright
             <strong
-              ><span
-                >REAL CHECK VERIFICATION SERVICES PRIVATE LIMITED</span
-              ></strong
-            >. All Rights Reserved
+              ><span>REAL CHECK VERIFICATION SERVICES Pvt. Ltd.</span></strong
+            >
+            All Rights Reserved .
           </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
@@ -435,8 +349,8 @@
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
